@@ -8,9 +8,14 @@
 
 int main(void)
 {
-	write(2, "and that piece of art is useful\"
-	- Dora Korpar, 2015-10-19\n",
-	sizeof("and that piece of art is useful\"
-	- Dora Korpar, 2015-10-19"));
+	int size;
+	int standard_error = 2;
+
+	size =
+sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	write(standard_error,
+	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+	size);
 	return (1);
 }
+
