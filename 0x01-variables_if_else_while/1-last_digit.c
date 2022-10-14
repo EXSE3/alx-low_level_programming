@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print the last digit 
+* main - print the last digit
 *
 * Description: using the main function
-* this program prints "Programming is print the last digit 
+* this program prints "Programming is print the last digit
 * Return: 0
 */
 int main(void)
