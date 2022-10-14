@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -12,7 +12,7 @@ int main(void)
 	int standard_error = 2;
 
 	size =
-sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 	write(standard_error,
 	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
 	size);
