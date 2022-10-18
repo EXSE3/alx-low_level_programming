@@ -9,7 +9,7 @@
 int main(void)
 {
 	int multi = 0;
-	int res = 0;	
+	int res = 0;
 
 	while (multi < 1024)
 	{
