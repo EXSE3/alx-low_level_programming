@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- * \\o/\n - caracter
  * Return: 0
  */
 
@@ -16,12 +15,10 @@ int main(void)
 /**
  * while (i < 10)
  * {
- * putchar(i);
+ *	 putchar(i);
  * }
- * loop which print carater
- *' \\o/\n'- caracter
+ *loop which print carater
  */
 	printf("Infinite loop avoided! \\o/\n");
-
 	return (0);
 }
