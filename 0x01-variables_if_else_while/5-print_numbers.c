@@ -1,16 +1,19 @@
+#include <stdlib.h>
 #include <stdio.h>
+
 /**
- * main - print the digit between 0 and 10
- * Description: using the main function
- * Return: 0
+ * This program prints digital numbers from 0 to 9
+ *
  */
+
 int main(void)
 {
-int i;
-for (i = 0; i < 10; i++)
-{
-	printf("%i", i);
-}
-printf("\n");
-return (0);
+	int n;
+	        
+	for (n = 0; n < 10; n++)
+	{
+		printf("%d", n);
+	}
+	printf("\n");
+	return (0);
 }

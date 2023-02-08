@@ -1,1 +1,1 @@
-Ce repertoire contient les exercices alx de bas niveau 
+README for the C programming language

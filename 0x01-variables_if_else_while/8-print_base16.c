@@ -1,20 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - print the digit of base seize
- * Description: using the main function
+ * main -  program that prints all the numbers of base 16 in lowercase
+ * You can only use the putchar function
  * Return: 0
  */
+
 int main(void)
 {
-char c;
-for (c = '0'; c <= '9'; c++)
-{
-	putchar(c);
-}
-for (c = 'a'; c <= 'f'; c++)
-{
-	putchar(c);
-}
-putchar('\n');
-return (0);
+	int n = 48;
+	int l = 'a';
+
+	while (n <= 57)
+	{
+		putchar(n);
+		n += 1;
+	}
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
+	putchar('\n');
+	return (0);
 }

@@ -1,19 +1,27 @@
 #include <stdio.h>
+
 /**
- * main - print the lowercase alphabet without e and q
- * Description: using the main function
+ * main - program that prints the alphabet in lowercase, followed by a new line
+ * You can only use the putchar
  * Return: 0
  */
+
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-if (ch != 'e' && ch != 'q')
-{
-	putchar(ch);
-}
-}
-putchar('\n');
-return (0);
+	int alph = 'a';
+
+	while (alph <= 'z')
+	{
+		if (alph == 'e' || alph == 'q')
+		{
+			alph += 1;
+		}
+		else
+		{
+			putchar(alph);
+			alph += 1;
+		}
+	}
+	putchar('\n');
+	return (0);
 }
